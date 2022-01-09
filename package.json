@@ -7,10 +7,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "@apollo/client": "^3.5.6",
+    "@vue/apollo-option": "^4.0.0-alpha.16",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "vue": "^3.2.25",
+    "vue-apollo": "^3.1.0",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.12",
     "vite": "^2.7.2"
   }
 }
